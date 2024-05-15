@@ -1,14 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-import gigiImage from './images/gigi.jpg'
+import Navbar from './components/navbar/navbar';
+import About from './components/pages/about';
+import Contact from './components/pages/contact';
+import Home from './components/pages/home';
+import Projects from './components/pages/projects';
+import Footer from './components/footer/footer';
 
 function App() {
+  let component
+  switch(window.location.pathname){
+    case "/":
+      component = <Home/>
+      break
+    case "/about":
+      component = <About/>
+      break
+    case "/projects":
+      component = <Projects/>
+      break
+    case "/contact":
+      component = <Contact/>
+      break
+
+      }
   return (
-    <div className="App">
-    <h1>My react App</h1>
-    <h2>Betty V</h2>
-    <img src={gigiImage} alt = "profile-img" style = {{width: '25%', height: 'auto'}}/>
-    </div>
+    <>
+    <Navbar/>
+    {component}
+    <Footer/>
+  </>
   );
 }
 

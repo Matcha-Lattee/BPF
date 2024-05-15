@@ -1,0 +1,25 @@
+@font-face {
+    font-family: keys;
+    src: url(./Keystone-Italic.ttf);
+  }
+
+body{
+    background-color: rgb(245, 240, 231);
+  }
+
+  .home{
+    align-items: left;
+    text-align: left;
+  }
+  
+  #home-title{
+    font-size: 80px;
+    font-family: keys;
+    padding:0%;
+    line-height: 0.5;
+  }
+
+  #htxt{
+    text-indent: 20px;
+    line-height: 0.5;
+  }

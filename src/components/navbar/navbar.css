@@ -1,0 +1,52 @@
+*{box-sizing:border-box;}
+
+@font-face {
+    font-family: keys;
+    src: url(./Keystone-Italic.ttf);
+  }
+
+body{
+    margin:0;
+}
+
+.nav{
+    background-color: rgb(120, 203, 133);
+    color:rgb(66, 51, 2);
+    display:flex;
+    justify-content:space-between;
+    align-items:stretch;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.site-title{
+    
+    font-family: keys;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2%;
+}
+
+.nav ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    display:flex;
+    gap: 1rem;
+}
+
+.ok{
+    color:rgb(66, 51, 2);
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    padding: .25rem;
+}
+
+
+.ok:hover{
+    color:rgb(245, 240, 231);
+    background-color: rgb(15, 49, 20);
+}
