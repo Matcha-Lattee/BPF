@@ -8,16 +8,16 @@ import Footer from './components/footer/footer';
 function App() {
   let component
   switch(window.location.pathname){
-    case "/":
+    case "https://matcha-lattee.github.io/BPF":
       component = <Home/>
       break
-    case "/about":
+    case "https://matcha-lattee.github.io/about":
       component = <About/>
       break
-    case "/projects":
+    case "https://matcha-lattee.github.io/projects":
       component = <Projects/>
       break
-    case "/contact":
+    case "https://matcha-lattee.github.io//contact":
       component = <Contact/>
       break
 

@@ -5,11 +5,11 @@ export default  function Navbar() {
     
     return (
     <nav className="nav">
-        <a href="/" className="site-title">BV<img src ={flower} style={{width: '5%', height:'auto',padding: 'none'}}></img></a>
+        <a href="https://matcha-lattee.github.io/BPF/" className="site-title">BV<img src ={flower} style={{width: '5%', height:'auto',padding: 'none'}}></img></a>
         <ul>
-            <CustomLink href="/about">About</CustomLink>
-            <CustomLink href="/projects">Projects</CustomLink>
-            <CustomLink href="/contact">Contact</CustomLink>
+            <CustomLink href="https://matcha-lattee.github.io/about">About</CustomLink>
+            <CustomLink href="https://matcha-lattee.github.io/projects">Projects</CustomLink>
+            <CustomLink href="https://matcha-lattee.github.io/contact">Contact</CustomLink>
         </ul>
     </nav>);
 }
