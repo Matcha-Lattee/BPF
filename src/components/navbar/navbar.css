@@ -50,3 +50,8 @@ body{
     color:rgb(245, 240, 231);
     background-color: rgb(15, 49, 20);
 }
+
+.ok.active{
+    color:rgb(245, 240, 231);
+    background-color: rgb(15, 49, 20);
+}
